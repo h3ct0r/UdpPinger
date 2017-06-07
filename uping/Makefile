@@ -1,4 +1,4 @@
-CPPFLAGS=-std=c++11
+CPPFLAGS=-std=c++1y
 THRIFT_GEN+= -Igen-cpp
 CPP=g++
 LDFLAGS=-g $(THRIFT_GEN)
